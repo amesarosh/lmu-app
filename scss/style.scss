@@ -1,0 +1,47 @@
+.pane {
+  background-color: #cfcfcf;
+}
+
+.scroll-refresher {
+  height: 50px;
+}
+
+.scroll-content {
+  height: calc(100% - 44px);
+}
+
+.card .venue a {
+  background-color: #5c5c5c;
+  color: #8CC63E;
+  font-weight: bold;
+  left: -1px;
+  width: 101%;
+}
+
+.scroll {
+  padding-bottom: 30px;
+}
+
+.card p {
+  color: #000;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.search-container {
+  overflow: visible;
+
+  .results {
+    background: #fff;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+  }
+}

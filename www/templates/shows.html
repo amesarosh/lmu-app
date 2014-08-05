@@ -1,0 +1,40 @@
+<ion-view title="{{title}}">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button button-icon icon ion-ios7-search"></button>
+  </ion-nav-buttons>
+
+  <ion-content class="has-header">
+
+    <ion-refresher
+      pulling-text="Pull to refresh..."
+      on-refresh="update()">
+    </ion-refresher>
+
+    <div class="show card" ng-repeat="show in shows | orderBy: '-date'">
+      <ion-item class="item-divider">
+        {{show.date | amDateFormat: "ddd MMM DD, YYYY - h:mma"}}
+      </ion-item>
+      <ion-item class="item-text-wrap venue" ui-sref="app.shows.venue({ venue: show.venue })">
+        {{show.venueName}}
+      </ion-item>
+      <ion-item class="item-text-wrap" href="#">
+        <p>{{show.description}}</p>
+        <ion-list>
+          <ion-item class="item" ng-repeat="band in show.bands" ui-sref="app.shows.band({ band: band })">
+            {{band}}
+          </ion-item>
+        </ion-list>
+      </ion-item>
+    </div>
+    
+    <div class="card" ng-show="shows.length == 0">
+      <ion-item>
+        <p>No Shows Found</p>
+      </ion-item>
+    </div>
+
+  </ion-content>
+</ion-view>
