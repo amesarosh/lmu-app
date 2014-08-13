@@ -17,21 +17,21 @@ Currently the app hits the following endpoints, and expects these responses
 ```json
 [
   {
-    id: '1',
-    date: '2014-08-30 20:30',
-    venue: 'rogue_bar',
-    venueName: 'Rogue Bar',
-    bands: ["Japhy's Descent", "Another Band"],
-    description: "This is a pretty cool show"
+    "id": "1",
+    "date": "2014-08-30 20:30",
+    "venue": "rogue_bar",
+    "venueName": "Rogue Bar",
+    "bands": ["Japhy's Descent", "Another Band"],
+    "description": "This is a pretty cool show"
   },
   {
-    id: '2',
-    date: '2014-09-30 20:30',
-    venue: 'long_wongs',
-    venueName: 'Long Wongs',
-    bands: ["Japhy's Descent", "Another Band"],
-    description: "This is another pretty cool show"
-  },
+    "id": "2",
+    "date": "2014-09-30 20:30",
+    "venue": "long_wongs",
+    "venueName": "Long Wongs",
+    "bands": ["Japhy's Descent", "Another Band"],
+    "description": "This is another pretty cool show"
+  }
 ]
 ```
 ---
@@ -48,21 +48,21 @@ Currently the app hits the following endpoints, and expects these responses
 ```json
 [
   {
-    id: '1',
-    date: '2014-08-30 20:30',
-    venue: 'rogue_bar',
-    venueName: 'Rogue Bar',
-    bands: ["Japhy's Descent", "Another Band"],
-    description: "This is a pretty cool show"
+    "id": "1",
+    "date": "2014-08-30 20:30",
+    "venue": "rogue_bar",
+    "venueName": "Rogue Bar",
+    "bands": ["Japhy's Descent", "Another Band"],
+    "description": "This is a pretty cool show"
   },
   {
-    id: '2',
-    date: '2014-09-30 20:30',
-    venue: 'rogue_bar',
-    venueName: 'Rogue Bar',
-    bands: ["Japhy's Descent", "Another Band"],
-    description: "This is another pretty cool show"
-  },
+    "id": "2",
+    "date": "2014-09-30 20:30",
+    "venue": "rogue_bar",
+    "venueName": "Rogue Bar",
+    "bands": ["Japhy's Descent", "Another Band"],
+    "description": "This is another pretty cool show"
+  }
 ]
 ```
 ---
@@ -80,20 +80,20 @@ Currently the app hits the following endpoints, and expects these responses
 ```json
 [
   {
-    id: '1',
-    date: '2014-08-30 20:30',
-    venue: 'rogue_bar',
-    venueName: 'Rogue Bar',
-    bands: ["Japhy's Descent", "Another Band"],
-    description: "This is a pretty cool show"
+    "id": "1",
+    "date": "2014-08-30 20:30",
+    "venue": "rogue_bar",
+    "venueName": "Rogue Bar",
+    "bands": ["Japhy's Descent", "Another Band"],
+    "description": "This is a pretty cool show"
   },
   {
-    id: '2',
-    date: '2014-09-30 20:30',
-    venue: 'rogue_bar',
-    venueName: 'Rogue Bar',
-    bands: ["Japhy's Descent", "Another Band"],
-    description: "This is another pretty cool show"
+    "id": "2",
+    "date": "2014-09-30 20:30",
+    "venue": "rogue_bar",
+    "venueName": "Rogue Bar",
+    "bands": ["Japhy's Descent", "Another Band"],
+    "description": "This is another pretty cool show"
   },
 ]
 ```
@@ -111,8 +111,8 @@ Currently the app hits the following endpoints, and expects these responses
 **Response**
 ```json
 {
-  name: 'Long Wongs',
-  address: '1639 E Apache Blvd, Tempe, AZ 85281'
+  "name": "Long Wongs",
+  "address": "1639 E Apache Blvd, Tempe, AZ 85281"
 }
 ```
 ---
